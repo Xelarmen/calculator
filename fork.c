@@ -83,30 +83,30 @@ goto ikinci_enbas;
 	if(deger == 2)
 goto ikinci_enbas;
 }
-					if( b == 3 )
-					{
+if( b == 3 )
+{
 printf("IKI KENARI GIRIN\n");
 scanf("%d%d",&s1,&s2);
 printf("DIKDORTGENIN CEVRESI: %d\nDIKDORTGENIN ALANI: %d",s1*2+s2*2,s1*s2);
 goto ikinci_enbas;
-					}	
-							if( b == 4 )
-							{
-								float yaricap;
-								#define pi 3.14
+}	
+if( b == 4 )
+{
+float yaricap;
+#define pi 3.14
 printf("YARICAP GIRIN\n");
 scanf("%f",&yaricap);
 printf("DAIRENIN CEVRESI: %f\nDAIRENIN ALANI: %f",(2 * yaricap) * pi, ( yaricap * yaricap ) * pi);
 goto ikinci_enbas;
 }	
-									if( b == 5 )
-									{
-										goto en_bas;
-									}	
-											if ( b == 6 )
-											{
-											exit(1);
-											}
+if( b == 5 )
+{
+goto en_bas;
+}	
+if ( b == 6 )
+{
+exit(1);
+}
 	
 }
 return 0;
