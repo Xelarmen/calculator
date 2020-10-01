@@ -50,7 +50,7 @@ en_bas:
 	goto en_bas;
 }
 	if(a == 0)
-exit(1);
+exit(0);
 
 if( a == 6 )
 ikinci_enbas:
@@ -105,7 +105,7 @@ goto en_bas;
 }	
 if ( b == 6 )
 {
-exit(1);
+exit(0);
 }
 	
 }
